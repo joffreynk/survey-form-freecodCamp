@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -35,7 +35,11 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+ @media only screen and (max-width: 500px) {
 
-@media only screen and (max-width: 500px) {
+} 
 
+
+#survey-form{
+  background-color: rgba(0,0,0,0.5);
 }
